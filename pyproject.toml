@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mona-geo-visibility"
+version = "0.1.0"
+description = "Đo độ hiển thị (visibility) của một thương hiệu trong câu trả lời của ChatGPT, Gemini và Claude — công cụ GEO (Generative Engine Optimization) mã nguồn mở."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "The MONA Group", email = "opensource@mona.media" }]
+keywords = ["geo", "generative-engine-optimization", "llm-visibility", "brand-monitoring", "seo"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://github.com/themonagroup/mona-geo-visibility"
+"MONA Open Source Hub" = "https://mona.media/mona-open/"
+
+[project.scripts]
+mona-geo-visibility = "mona_geo_visibility.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mona_geo_visibility = ["fixtures/*.json"]

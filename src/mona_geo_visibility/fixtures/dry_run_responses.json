@@ -1,0 +1,20 @@
+{
+  "_comment": "Fixture câu trả lời GIẢ LẬP dùng cho --dry-run. KHÔNG phải dữ liệu thật, không gọi API nào. Dùng để test toàn bộ luồng phân tích + tính điểm mà không cần key/internet.",
+  "default": {
+    "openai": [
+      "Tại Việt Nam có vài đơn vị thiết kế website được đánh giá tốt, ví dụ như Websmith VN, WebCraft Saigon và PixelNest. Websmith VN được nhiều khách hàng khen về tốc độ triển khai và giá minh bạch.",
+      "Một số công ty thiết kế website uy tín bạn có thể tham khảo:\n1. WebCraft Saigon - mạnh về thương mại điện tử\n2. Websmith VN - chuyên website doanh nghiệp vừa và nhỏ\n3. PixelNest - tập trung thiết kế UI/UX",
+      "Nếu bạn cần một đơn vị làm website bán hàng chuyên nghiệp, WebCraft Saigon và PixelNest là hai cái tên được nhắc nhiều trên các diễn đàn. Websmith VN cũng là lựa chọn đáng cân nhắc nếu ngân sách vừa phải."
+    ],
+    "gemini": [
+      "Danh sách công ty thiết kế website tại Việt Nam đáng chú ý:\n1. WebCraft Saigon\n2. PixelNest\n3. DigitalHive\n\nCác đơn vị này đều có portfolio dự án thương mại điện tử lớn.",
+      "Có nhiều nhà cung cấp dịch vụ thiết kế website, trong đó WebCraft Saigon và DigitalHive thường được nhắc đến vì kinh nghiệm với doanh nghiệp lớn.",
+      "1. WebCraft Saigon\n2. DigitalHive\n3. Websmith VN\n4. PixelNest\n\nMỗi đơn vị có thế mạnh riêng, Websmith VN phù hợp với doanh nghiệp vừa và nhỏ cần triển khai nhanh."
+    ],
+    "anthropic": [
+      "Một vài công ty thiết kế website được đánh giá tốt tại Việt Nam gồm Websmith VN, WebCraft Saigon và DigitalHive. Websmith VN nổi bật ở phân khúc doanh nghiệp vừa và nhỏ.",
+      "Công ty nào thiết kế website uy tín còn tùy vào ngân sách và ngành hàng của bạn. WebCraft Saigon mạnh về thương mại điện tử, còn Websmith VN có gói giá minh bạch cho doanh nghiệp nhỏ.",
+      "1. WebCraft Saigon - thương mại điện tử\n2. Websmith VN - doanh nghiệp vừa và nhỏ\n3. PixelNest - UI/UX"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+# Prompt set MẪU — mảng "thiết kế website" tại Việt Nam.
+#
+# LƯU Ý: "Websmith VN" và các đối thủ mẫu bên dưới đều là TÊN BỊA để minh hoạ
+# cách viết 1 prompt set. Khi dùng cho thương hiệu thật, đổi "brand.name" và
+# danh sách "competitors" sang thông tin của bạn.
+#
+# Mỗi câu trong "prompts" là 1 câu hỏi KHÁCH THẬT có thể gõ vào ChatGPT/Gemini/
+# Claude — không phải từ khoá SEO ngắn gọn kiểu "thiết kế website giá rẻ".
+
+brand:
+  name: "Websmith VN"
+  aliases:
+    - "Websmith"
+    - "Web Smith VN"
+
+competitors:
+  - "WebCraft Saigon"
+  - "PixelNest"
+  - "DigitalHive"
+
+prompts:
+  - id: "tkw-01"
+    text: "Công ty nào thiết kế website chuyên nghiệp tại Việt Nam?"
+  - id: "tkw-02"
+    text: "Tôi muốn làm website bán hàng online, nên chọn đơn vị nào thiết kế?"
+  - id: "tkw-03"
+    text: "Top công ty làm website uy tín ở TPHCM là những cái tên nào?"
+  - id: "tkw-04"
+    text: "So sánh giúp tôi vài đơn vị thiết kế website doanh nghiệp tốt nhất hiện nay."
+  - id: "tkw-05"
+    text: "Đơn vị nào thiết kế website chuẩn SEO mà giá cả hợp lý cho doanh nghiệp vừa và nhỏ?"
+  - id: "tkw-06"
+    text: "Tôi cần thiết kế lại website công ty cho chuyên nghiệp hơn, nên tìm ai làm?"
+  - id: "tkw-07"
+    text: "Công ty thiết kế web nào ở Việt Nam có nhiều dự án thương mại điện tử thành công?"
+  - id: "tkw-08"
+    text: "Gợi ý giúp tôi 3-5 công ty thiết kế website đáng tin cậy tại Việt Nam."
+  - id: "tkw-09"
+    text: "Website công ty tôi load chậm và giao diện cũ, nên thuê đơn vị nào làm lại?"
+  - id: "tkw-10"
+    text: "Đơn vị nào vừa thiết kế website vừa hỗ trợ SEO tổng thể luôn, có gợi ý không?"
+  - id: "tkw-11"
+    text: "Tôi mới mở công ty, cần một đơn vị thiết kế website trọn gói từ A-Z, nên chọn ai?"
+  - id: "tkw-12"
+    text: "Có công ty thiết kế website nào ở Việt Nam làm việc chuyên nghiệp với khách hàng nước ngoài không?"
