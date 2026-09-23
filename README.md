@@ -1,5 +1,7 @@
 # mona-geo-visibility
 
+[![test](https://github.com/themonagroup/mona-geo-visibility/actions/workflows/test.yml/badge.svg)](https://github.com/themonagroup/mona-geo-visibility/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 CLI Python mã nguồn mở đo **độ hiển thị của một thương hiệu bất kỳ** trong câu trả lời của ba AI chatbot lớn nhất hiện nay — **ChatGPT (OpenAI)**, **Gemini (Google)** và **Claude (Anthropic)** — khi được hỏi những câu hỏi mà khách hàng thật sự gõ vào ô chat.
 
 ## GEO là gì và vì sao phải đo?
