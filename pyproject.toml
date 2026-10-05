@@ -9,7 +9,7 @@ description = "Đo độ hiển thị (visibility) của một thương hiệu t
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "The MONA Group", email = "opensource@mona.media" }]
+authors = [{ name = "MONA Software", email = "opensource@mona.media" }]
 keywords = ["geo", "generative-engine-optimization", "llm-visibility", "brand-monitoring", "seo"]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -26,8 +26,8 @@ dependencies = [
 dev = ["pytest>=8.0"]
 
 [project.urls]
-Homepage = "https://github.com/mona-software/mona-geo-visibility"
-"MONA Open Source Hub" = "https://mona.media/mona-open/"
+Repository = "https://github.com/mona-software/mona-geo-visibility"
+Homepage = "https://mona.software"
 
 [project.scripts]
 mona-geo-visibility = "mona_geo_visibility.cli:main"
