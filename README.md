@@ -1,6 +1,6 @@
 # mona-geo-visibility
 
-[![test](https://github.com/themonagroup/mona-geo-visibility/actions/workflows/test.yml/badge.svg)](https://github.com/themonagroup/mona-geo-visibility/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![test](https://github.com/mona-software/mona-geo-visibility/actions/workflows/test.yml/badge.svg)](https://github.com/mona-software/mona-geo-visibility/actions/workflows/test.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 CLI Python mã nguồn mở đo **độ hiển thị của một thương hiệu bất kỳ** trong câu trả lời của ba AI chatbot lớn nhất hiện nay — **ChatGPT (OpenAI)**, **Gemini (Google)** và **Claude (Anthropic)** — khi được hỏi những câu hỏi mà khách hàng thật sự gõ vào ô chat.
 
@@ -23,7 +23,7 @@ Ngoài ra công cụ còn cố gắng ghi lại **nguồn mà AI trích dẫn** 
 Yêu cầu Python 3.10 trở lên.
 
 ```bash
-git clone https://github.com/themonagroup/mona-geo-visibility.git
+git clone https://github.com/mona-software/mona-geo-visibility.git
 cd mona-geo-visibility
 pip install -e .
 ```
@@ -163,7 +163,7 @@ It computes:
 Requires Python 3.10+.
 
 ```bash
-git clone https://github.com/themonagroup/mona-geo-visibility.git
+git clone https://github.com/mona-software/mona-geo-visibility.git
 cd mona-geo-visibility
 pip install -e .
 ```
@@ -216,4 +216,8 @@ All tests run offline (dry-run/mocked), suitable for CI.
 - This tool measures GEO visibility; it does not fix it for you.
 
 ---
-Từ MONA — https://mona.media · Các repo khác: https://github.com/themonagroup · Hub mã nguồn mở: https://mona.media/mona-open/
+Từ MONA — https://mona.media · Các repo khác: https://github.com/mona-software · Hub mã nguồn mở: https://mona.media/mona-open/
+
+**`mona-geo-visibility` is a product of MONA Software, a member of The MONA Group.**
+
+**`mona-geo-visibility` là sản phẩm của MONA Software, thành viên The MONA Group.**
